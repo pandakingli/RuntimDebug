@@ -1,0 +1,357 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E6777D1E1FC27EE0005AED5D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E6777D1D1FC27EE0005AED5D /* AppDelegate.m */; };
+		E6777D201FC27EE0005AED5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6777D1F1FC27EE0005AED5D /* Assets.xcassets */; };
+		E6777D231FC27EE0005AED5D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6777D211FC27EE0005AED5D /* MainMenu.xib */; };
+		E6777D261FC27EE0005AED5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E6777D251FC27EE0005AED5D /* main.m */; };
+		E6777D301FC27F42005AED5D /* MainWC.m in Sources */ = {isa = PBXBuildFile; fileRef = E6777D2E1FC27F42005AED5D /* MainWC.m */; };
+		E6777D311FC27F42005AED5D /* MainWC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6777D2F1FC27F42005AED5D /* MainWC.xib */; };
+		E6777D351FC28084005AED5D /* FirstWC.m in Sources */ = {isa = PBXBuildFile; fileRef = E6777D331FC28084005AED5D /* FirstWC.m */; };
+		E6777D361FC28084005AED5D /* FirstWC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6777D341FC28084005AED5D /* FirstWC.xib */; };
+		E6777D3A1FC28094005AED5D /* SecondWC.m in Sources */ = {isa = PBXBuildFile; fileRef = E6777D381FC28094005AED5D /* SecondWC.m */; };
+		E6777D3B1FC28094005AED5D /* SecondWC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6777D391FC28094005AED5D /* SecondWC.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E6F455731FC293FB00DC287E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E6777D191FC27EE0005AED5D /* macOSAPPTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = macOSAPPTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6777D1C1FC27EE0005AED5D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E6777D1D1FC27EE0005AED5D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E6777D1F1FC27EE0005AED5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E6777D221FC27EE0005AED5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		E6777D241FC27EE0005AED5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6777D251FC27EE0005AED5D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E6777D271FC27EE0005AED5D /* macOSAPPTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOSAPPTest.entitlements; sourceTree = "<group>"; };
+		E6777D2D1FC27F42005AED5D /* MainWC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainWC.h; sourceTree = "<group>"; };
+		E6777D2E1FC27F42005AED5D /* MainWC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainWC.m; sourceTree = "<group>"; };
+		E6777D2F1FC27F42005AED5D /* MainWC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWC.xib; sourceTree = "<group>"; };
+		E6777D321FC28084005AED5D /* FirstWC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstWC.h; sourceTree = "<group>"; };
+		E6777D331FC28084005AED5D /* FirstWC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstWC.m; sourceTree = "<group>"; };
+		E6777D341FC28084005AED5D /* FirstWC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstWC.xib; sourceTree = "<group>"; };
+		E6777D371FC28094005AED5D /* SecondWC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondWC.h; sourceTree = "<group>"; };
+		E6777D381FC28094005AED5D /* SecondWC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondWC.m; sourceTree = "<group>"; };
+		E6777D391FC28094005AED5D /* SecondWC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondWC.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E6777D161FC27EE0005AED5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E6777D101FC27EE0005AED5D = {
+			isa = PBXGroup;
+			children = (
+				E6777D1B1FC27EE0005AED5D /* macOSAPPTest */,
+				E6777D1A1FC27EE0005AED5D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E6777D1A1FC27EE0005AED5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6777D191FC27EE0005AED5D /* macOSAPPTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6777D1B1FC27EE0005AED5D /* macOSAPPTest */ = {
+			isa = PBXGroup;
+			children = (
+				E6777D1C1FC27EE0005AED5D /* AppDelegate.h */,
+				E6777D1D1FC27EE0005AED5D /* AppDelegate.m */,
+				E6777D2D1FC27F42005AED5D /* MainWC.h */,
+				E6777D2E1FC27F42005AED5D /* MainWC.m */,
+				E6777D2F1FC27F42005AED5D /* MainWC.xib */,
+				E6777D321FC28084005AED5D /* FirstWC.h */,
+				E6777D331FC28084005AED5D /* FirstWC.m */,
+				E6777D341FC28084005AED5D /* FirstWC.xib */,
+				E6777D371FC28094005AED5D /* SecondWC.h */,
+				E6777D381FC28094005AED5D /* SecondWC.m */,
+				E6777D391FC28094005AED5D /* SecondWC.xib */,
+				E6777D1F1FC27EE0005AED5D /* Assets.xcassets */,
+				E6777D211FC27EE0005AED5D /* MainMenu.xib */,
+				E6777D241FC27EE0005AED5D /* Info.plist */,
+				E6777D251FC27EE0005AED5D /* main.m */,
+				E6777D271FC27EE0005AED5D /* macOSAPPTest.entitlements */,
+			);
+			path = macOSAPPTest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E6777D181FC27EE0005AED5D /* macOSAPPTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6777D2A1FC27EE0005AED5D /* Build configuration list for PBXNativeTarget "macOSAPPTest" */;
+			buildPhases = (
+				E6777D151FC27EE0005AED5D /* Sources */,
+				E6777D161FC27EE0005AED5D /* Frameworks */,
+				E6777D171FC27EE0005AED5D /* Resources */,
+				E6F455731FC293FB00DC287E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = macOSAPPTest;
+			productName = macOSAPPTest;
+			productReference = E6777D191FC27EE0005AED5D /* macOSAPPTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E6777D111FC27EE0005AED5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = biubiublue;
+				TargetAttributes = {
+					E6777D181FC27EE0005AED5D = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E6777D141FC27EE0005AED5D /* Build configuration list for PBXProject "macOSAPPTest" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E6777D101FC27EE0005AED5D;
+			productRefGroup = E6777D1A1FC27EE0005AED5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6777D181FC27EE0005AED5D /* macOSAPPTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E6777D171FC27EE0005AED5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6777D3B1FC28094005AED5D /* SecondWC.xib in Resources */,
+				E6777D201FC27EE0005AED5D /* Assets.xcassets in Resources */,
+				E6777D311FC27F42005AED5D /* MainWC.xib in Resources */,
+				E6777D361FC28084005AED5D /* FirstWC.xib in Resources */,
+				E6777D231FC27EE0005AED5D /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E6777D151FC27EE0005AED5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6777D261FC27EE0005AED5D /* main.m in Sources */,
+				E6777D301FC27F42005AED5D /* MainWC.m in Sources */,
+				E6777D351FC28084005AED5D /* FirstWC.m in Sources */,
+				E6777D3A1FC28094005AED5D /* SecondWC.m in Sources */,
+				E6777D1E1FC27EE0005AED5D /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E6777D211FC27EE0005AED5D /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6777D221FC27EE0005AED5D /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E6777D281FC27EE0005AED5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E6777D291FC27EE0005AED5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E6777D2B1FC27EE0005AED5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = macOSAPPTest/macOSAPPTest.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = S9HRLGS74P;
+				INFOPLIST_FILE = macOSAPPTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../dylib @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = biubiublue.macOSAPPTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E6777D2C1FC27EE0005AED5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = macOSAPPTest/macOSAPPTest.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = S9HRLGS74P;
+				INFOPLIST_FILE = macOSAPPTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../dylib @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = biubiublue.macOSAPPTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E6777D141FC27EE0005AED5D /* Build configuration list for PBXProject "macOSAPPTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6777D281FC27EE0005AED5D /* Debug */,
+				E6777D291FC27EE0005AED5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6777D2A1FC27EE0005AED5D /* Build configuration list for PBXNativeTarget "macOSAPPTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6777D2B1FC27EE0005AED5D /* Debug */,
+				E6777D2C1FC27EE0005AED5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E6777D111FC27EE0005AED5D /* Project object */;
+}
